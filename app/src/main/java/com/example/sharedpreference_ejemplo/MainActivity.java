@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         edtPass=findViewById(R.id.edtPass);
         txtUser=findViewById(R.id.txtUser);
         txtPass=findViewById(R.id.txtPass);
-        
+
         cargarPreferencias();
     }
 
@@ -58,5 +59,6 @@ public class MainActivity extends AppCompatActivity {
         txtUser.setText(usuario);
         txtPass.setText(pass);
         editor.commit();
+
     }
 }
