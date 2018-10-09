@@ -22,14 +22,26 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/edtPass"
         android:layout_centerHorizontal="true"
-        android:text="Guardar"/>
+        android:text="Guardar"
+        android:onClick="onClick"/>
     <Button
         android:id="@+id/btoCargar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/btoGuardar"
         android:layout_centerHorizontal="true"
-        android:text="Cargar"/>
+        android:text="Cargar"
+        android:onClick="onClick"/>
+    <TextView
+        android:id="@+id/txtUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtUser"/>
+    <TextView
+        android:id="@+id/txtPass"
+        android:layout_below="@id/edtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 
 </RelativeLayout>
